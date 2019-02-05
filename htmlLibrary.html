@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My HTML Library</title>
+</head>
+<body>
+    <h1>This is a level 1 heading created using the h1 tag</h1>
+    <h1>Heading level 1</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+
+    <!-- self-closing tags; br will start a new line and hr will provide a horizontal line on the web page -->
+    <br> 
+
+    <!-- The "<em>" tag will italicized content in between the tag -->
+    <!-- The "<strong>" tag will make content in between bold -->
+    <!-- The <del> represents a range of text that has been deleted from a document. -->
+    <p>This <em>message</em> uses <del>the</del>the <strong>paragraph</strong></p>
+
+    <!-- This code "<hr>" will add a horizontal line to the webpage-->
+    <hr> 
+
+    <!-- +================================================================================= -->
+    
+                                    <!-- LISTS -->
+
+    <!-- 1. UNORDER LISTS -->
+    <!-- starts wity the "ul" tag and then inside the tage you have the "li" - list of the items in you list -->
+
+        <!-- a. Regular bullet list-->
+    <p>Regular List</p>
+    <ul>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+    </ul>
+
+    <!-- b. Nested list -->
+
+    <p>Nested List</p>
+    <ul>
+        <li>First Item</li>
+            <ul>
+                <li>First nested item</li>
+                <li>Second nested item</li>
+                    <ul>
+                        <li>Inside of second nested </li>
+                    </ul>
+            </ul>
+        <li>Second Item</li>
+            <ul>
+                <li>Second nested item</li>
+                <li>Second nested item</li>
+            </ul>
+        <li>Third Item</li>
+    </ul>
+
+    <!-- Ordered List -->
+        <!-- The "<ol>"" element represents an ordered list of items, typically rendered as a numbered list. -->
+
+    <ol>
+        <li>Run</li>
+        <li>Jump</li>
+        <li>Fly</li>
+    </ol>
+
+    <!-- To change from number list to alphabet, check the full list on mdn webpage -->
+
+    <ol type= "i">
+            <li>Eat</li>
+            <li>Sleep</li>
+            <li>Wake up</li>
+    </ol>
+
+<!-- ==================================================================================== -->
+
+                                    <!-- "img" -->
+    
+         <!-- <img> element embeds an image into the document. It is a self-closing tag -->
+
+    <img src="https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg" alt="juicy orange">
+
+    <!-- The "scr" & "alt" attribute-->
+        <!-- "src" - is required when using the "src" tag; lets you know where the image is located-->
+
+        <!-- The "alt" - This attribute defines an alternative text description of the image.  -->
+    <br>
+<!-- ==================================================================================== -->
+
+                                    <!-- "a href" -->
+
+    <!-- this is to add a link to different pages.  After the opening tag, you will want to input the word you would want the users to see and the color of the word would be blue with an underline when renedered within the browser -->
+     <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download cheat sheet</a>
+    <br>
+     <!-- to make the link as a downloadable file, you can add the "download" attribute to the "a" tag -->
+
+     <a download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download cheat sheet</a>
+   
+<!-- ==================================================================================== -->
+    <br>
+    <br>
+                                    <!-- "table" -->
+    <!-- the table mimics the html layout -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Red</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Green</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+     </table>
+    
+<!-- ==================================================================================== -->
+
+                                    <!-- "form" -->
+     <!-- go to MDN websites - there is a ton of attributes for this -->
+
+    <form class="" action="" method=""></form>
+<!-- ==================================================================================== -->
+
+                                    <!-- "" -->
+<!-- ==================================================================================== -->
+
+                                    <!-- "" -->
+    </body>
+
+</html>
